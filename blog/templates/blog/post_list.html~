@@ -7,7 +7,7 @@
 {%for post in posts %}
 	{{ post }}</br>
 	{{ post.published_date }}</br>
-	{{ post.text|linebreaks }}
+	{{	post.text|linebreaks	}}
 {%endfor%}
 </body>
 </html>
